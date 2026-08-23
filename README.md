@@ -93,6 +93,10 @@ The scanner performs no network access, does not execute workflow code, and does
 
 The project is provided for defensive repository hygiene. Review findings in context before changing a workflow, especially for deployment and release automation.
 
+## References
+
+The checks are informed by [GitHub’s secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) and its guidance on least privilege, untrusted pull requests, secret handling, and dependency review.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
