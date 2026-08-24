@@ -1,4 +1,4 @@
-# actions-safecheck
+# Actions Safecheck
 
 **Read-only GitHub Actions workflow safety linter for public repositories.** `actions-safecheck` finds high-signal workflow hazards before they reach CI: privileged pull-request triggers, direct shell interpolation of GitHub context, mutable third-party actions, missing least-privilege permissions, literal secret-like values, untrusted checkout refs, and self-hosted runners.
 
