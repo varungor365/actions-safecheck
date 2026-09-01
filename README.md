@@ -1,5 +1,7 @@
 # Actions Safecheck: GitHub Actions Workflow Security Linter
 
+[![CI](https://github.com/varungor365/actions-safecheck/actions/workflows/ci.yml/badge.svg)](https://github.com/varungor365/actions/workflows/ci.yml)
+
 **Find high-signal GitHub Actions workflow risks before they reach CI.**
 
 `actions-safecheck` is a read-only, local-first linter for GitHub Actions workflow files. It flags privileged pull-request triggers, direct shell interpolation of GitHub context, mutable third-party actions, missing least-privilege permissions, literal secret-like values, untrusted checkout refs, and self-hosted runners.
